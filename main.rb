@@ -35,3 +35,6 @@ data.each {|num| puts num}
 puts true if data.include? 3
 new_arr = data.select {|num| num > 10}.reject { |num| num.odd? }
 print new_arr
+
+
+print ('k'...'z').to_a.sample(2)[0]
